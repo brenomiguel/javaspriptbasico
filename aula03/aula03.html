@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funcao.js"></script>
+    <title>Incrição</title>
+</head>
+<body bgcolor="red">
+    <form>
+        <h2 align="center">Cadastro</h2>
+        <div align="center">
+            <p>
+                <input type="button" value="Digitar nome" onclick="nome=prompt('Seu nome', '')">
+                <input type="button" value="Digitar e-mail" onclick="email=prompt('E-mail', '')">
+                <input type="button" value="Valor do saque" onclick="saque=parseInt(prompt('Quanto quer sacar?', ''))">
+                <input type="button" value="Cadastrar" onclick="escrever(this.form.Area)">
+            </p><textarea rows="10 " cols="40" name="Area"></textarea>
+
+        </div>
+    </form>
+</body>
+</html>
