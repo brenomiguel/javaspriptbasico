@@ -1,0 +1,10 @@
+.container {
+    
+    padding-top: 150px;
+    border-radius: 90px; 
+    
+}
+body {
+   
+    background: linear-gradient(to bottom, #3498db, #eaac3c); /* Exemplo de degradê de azul para vermelho */
+}

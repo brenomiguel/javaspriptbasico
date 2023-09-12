@@ -3,21 +3,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="funcao.js"></script>
     <title>Incrição</title>
 </head>
-<body bgcolor="red">
+<body bg color="red">
     <form>
-        <h2 align="center">Cadastro</h2>
-        <div align="center">
+        
+        <div class="container" align="center">
+            <h2 align="center">Cadastro</h2>
             <p>
-                <input type="button" value="Digitar nome" onclick="nome=prompt('Seu nome', '')">
-                <input type="button" value="Digitar e-mail" onclick="email=prompt('E-mail', '')">
-                <input type="button" value="Valor do saque" onclick="saque=parseInt(prompt('Quanto quer sacar?', ''))">
-                <input type="button" value="Cadastrar" onclick="escrever(this.form.Area)">
-            </p><textarea rows="10 " cols="40" name="Area"></textarea>
+                <input class="btn btn-gradient-primary" type="button" value="Digitar nome" onclick="nome=prompt('Seu nome', '')">
+                <input class="btn btn-gradient-primary" type="button" value="Digitar e-mail" onclick="email=prompt('E-mail', '')">
+                <input class="btn btn-gradient-primary" type="button" value="Valor do saque" onclick="saque=parseInt(prompt('Quanto quer sacar?', ''))">
+                <input class="btn btn-gradient-primary" type="button" value="Cadastrar" onclick="escrever(this.form.Area)">
+            </p><textarea  rows="10 " cols="40" name="Area"></textarea>
 
         </div>
     </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
