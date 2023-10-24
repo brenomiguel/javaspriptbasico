@@ -1,9 +1,65 @@
-.one{
-    border-color:burlywood;
-    background-color:lavender;
+body {
+    font-family: Arial, sans-serif;
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    
+ 
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    text-align: left;
+  
+}
+
+.footer {
+   
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+   
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 5%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   margin-top: 100px;
+}
+
+#personForm {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+   border: none;
+    cursor: pointer;
+   
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.display-details {
     margin-top: 20px;
-    border-style: solid;
-    border-color: darkblue;
 }
