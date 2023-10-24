@@ -17,19 +17,19 @@
         <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Programação com orientação a objetos no Javascript
+                1 parte
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                A programação orientada a objetos (POO) é um paradigma de programação que se baseia no conceito de "objetos", que são instâncias de classes. Ela oferece uma maneira de organizar e estruturar o código de forma mais modular e reutilizável. Aqui estão alguns conceitos-chave da programação orientada a objetos:
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Variáveis utilizadas no Javascript podem conter muitos valores
+                2 parte
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -41,7 +41,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Algumas propriedades do objeto
+                3 parte
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -52,25 +52,37 @@
           </div>
         </div>
         <br>
-        <form id="personForm">
-            <input type="text" id="firstName" placeholder="Nome">
-            <input type="text" id="lastName" placeholder="Sobrenome">
-            <input type="text" id="language" placeholder="Língua">
-            <button type="submit">Enviar</button>
-        </form>
+    
 
-        <div class="display-details">
-            <p>Detalhes inseridos:</p>
-            <p>Primeiro Nome: <span id="displayFirstName"></span></p>
-            <p>Sobrenome: <span id="displayLastName"></span></p>
-            <p>Língua: <span id="displayLanguage"></span></p>
-        </div>
-    </div>
-
-    <div class="footer bg-dark">
-        <p>Breno Miguel</p>
+        <div class="container">
+          <h1>Exemplo</h1>
+          <form id="personForm">
+              <input type="text" id="firstName" class="form-control" class="form-label" placeholder="Nome">
+              <br>
+              <input type="text" id="lastName" class="form-control" class="form-label" placeholder="Sobrenome">
+              <br>
+              <input type="text" id="language" class="form-control" class="form-label" placeholder="Personalidade">
+              <br>
+              <button type="submit" class="btn btn-success">Enviar</button>
+              <br>
+          </form> 
         
-    </div>
-
-  <script src="js/script.js"></script>
-</body>
+  
+          <br>
+          <div class="display-details">
+              <p>Resposta</p>
+              <p>Nome: <span id="displayFirstName"></span></p>
+              <p>Sobrenome: <span id="displayLastName"></span></p>
+              <p>Personalidade: <span id="displayLanguage"></span></p>
+          </div>
+      </div> 
+  
+  
+      <footer class="footer">
+          Breno Miguel
+      </footer>
+  
+  
+    <script src="script.js"></script>
+  </body>
+  </html>
