@@ -11,4 +11,4 @@ aula 04     https://brenomiguel.github.io/javaspriptbasico/aula_29_08_23/imc.htm
 
 aula 05     https://brenomiguel.github.io/javaspriptbasico/tabuada/index.html
 
-atividade de POO   https://brenomiguel.github.io/javaspriptbasico/
+atividade de POO   https://brenomiguel.github.io/javaspriptbasico/aula_10_10_23/index.html
