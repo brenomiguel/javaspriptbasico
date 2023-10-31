@@ -14,3 +14,6 @@ aula 05     https://brenomiguel.github.io/javaspriptbasico/tabuada/index.html
 atividade de POO   https://brenomiguel.github.io/javaspriptbasico/aula_10_10_23/index.html
 
 atividade de POO com laço   https://brenomiguel.github.io/javaspriptbasico/aula_24_10_23/index.html
+
+
+aula 08     https://brenomiguel.github.io/javaspriptbasico/aula_31_10_23/index.html      
