@@ -1,0 +1,24 @@
+/* Estilo para a imagem grande no topo */
+#main-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+}
+ 
+.bottom-image {
+    max-width: 100%;
+    height: auto;
+    margin: 5px; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+ 
+
+.bottom-image.selected {
+    border: 2px solid rgb(255, 94, 0); 
+}
+body{
+    background-color: rgb(131, 48, 0); 
+}
